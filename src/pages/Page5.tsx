@@ -3,7 +3,20 @@ import { motion } from 'framer-motion';
 
 export const Page5: React.FC = () => {
   const fullText =
-    "it’s your day! wish u all the best sayang. happy b’day to uuu, selamat bertumbuh jauh lebih baik sayangku cintaaku, panjang umur, a wish for u on ur birthday, whatever u ask may u receive, whatever u seek may u find, whatever u wish may it be fulfilled on ur birthday and together, i hope u will walk on this journey, knowing that u belong babe, i hope even if things sometime don’t go ur way u will stop trying, u will not give up on urself and ur thoughest days, i hope u will reminding ur self of this word “u deserve better, kamu layak dicintai dan dirayakan dalam hal apapun” and may God grant u what ur heart truly desire, may God make everything u want good for u, so that may accept all ur prayers and wishes. thank u for accepting me. sometimes, yang bisa diandelin hanya diri kamu sendiri, tapi jangan pernah kamu ngerasa sendiri, if u need someone to talk, im here, and always here. semoga hal baik selalu mengelilingi kamu, semoga semesta selalu berpihak sama kamu, semoga jalanmu selalu dipermudah. aku akan selalu bangga atas setiap proses yang udah kamu lalui anak hebat anak kuat anak gantengg, i will always support u <33.";
+    "Sebenernya aku bikin ini nggak pakai banyak mikir kata-kata yang ribet. Cuma pengen ngucapin aja karena hari ini momen yang lumayan spesial.
+
+Makasih ya selama ini udah mau ngobrol sama aku. Dari hal-hal random, bahas topik nggak jelas, sampai cerita soal keseharian. Walaupun cuma lewat chat, tapi aku ngerasa ngobrol sama kamu selalu enak dan nggak bikin capek. 
+  
+Kamu tipe orang yang santai, nggak drama, dan nggak bikin suasana jadi ribet. Kalau lagi ngobrol sama kamu, rasanya ngalir aja, nggak perlu mikir harus ngomong apa. Itu jarang sih, jujur.
+
+Kadang aku juga ngerasa terbantu sama cara kamu dengerin, nanggepin, atau sekadar hadir buat ngobrol. Hal-hal kecil kayak gitu kelihatannya biasa, tapi sebenernya berarti.
+
+Semoga hari ini kamu lagi dalam kondisi yang baik. Nggak lagi banyak pikiran, nggak terlalu capek sama aktivitas kamu, dan tetap bisa nikmatin hari kamu. Semoga juga semua rencana kamu, target kamu, sama hal-hal yang lagi kamu kejar bisa jalan pelan-pelan.
+
+Aku harap kamu selalu jaga kesehatan, jangan terlalu maksa diri, dan tetap jadi diri kamu sendiri. Karena versi kamu yang sekarang aja udah oke.
+
+Intinya, makasih ya udah jadi orang yang bikin komunikasi ini tetap seru dan nyaman. Semoga ke depannya kita masih bisa sering ngobrol, tukar cerita, dan saling support, walaupun cuma lewat layar.
+";
 
   const [typedText, setTypedText] = useState("");
 
@@ -39,7 +52,7 @@ export const Page5: React.FC = () => {
       
       {/* ✅ Vertical Line AUTO height */}
       <motion.div
-        className="w-1 bg-[#c2a77d] rounded-full"
+        className="w-1 bg-[#FB9B8F] rounded-full"
         initial={{ scaleY: 0 }}
         animate={{ scaleY: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -47,15 +60,15 @@ export const Page5: React.FC = () => {
       />
 
       <div className="flex-1 text-left">
-        <h1 className="text-3xl font-bold text-[#7a4a2e] mb-6 font-serif">
-          happy birthday bebee ♡
+        <h1 className="text-3xl font-bold text-[#F57799] mb-6 font-serif">
+          Happy Valentine, te'amour♡
         </h1>
 
         {/* Letter */}
         <div
           className="
             text-[17px]
-            text-[#5b3a29]
+            text-[#FB9B8F]
             leading-[1.55]
             whitespace-pre-line
             font-serif
@@ -70,4 +83,5 @@ export const Page5: React.FC = () => {
     </div>
   );
 };
+
 
