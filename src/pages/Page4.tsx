@@ -38,7 +38,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
           font-medium
           font-serif
         ">
-          You are my Valentine, I love you
+          Happy Valentine Reverie, I love You
         </p>
       </div>
 
@@ -62,6 +62,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
 
