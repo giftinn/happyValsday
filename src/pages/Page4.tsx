@@ -17,7 +17,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
           overflow-hidden
           shadow-xl
           border-4
-          border-[#e6d5c3]
+          border-[#FB9B8F]
         "
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -33,13 +33,12 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
       <div className="space-y-4 text-center">
         <p className="
           text-xl
-          text-[#7a4a2e]
+          text-[#F57799]
           leading-relaxed
           font-medium
           font-serif
         ">
-          i will never stop loving u, i will always love u, if you need me, when the world is not on your side, when your days are not going well, i will always be here, i will never leave you, even if i have to fight many things. 
-          i will always be your side.
+          You are my Valentine, I love you
         </p>
       </div>
 
@@ -47,11 +46,11 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
         onClick={onNext}
         className="
           p-4
-          bg-[#c2a77d]
+          bg-[#FB9B8F]
           text-white
           rounded-full
           shadow-lg
-          hover:bg-[#a68b63]
+          hover:bg-[#FDC3A1]
           transition-colors
         "
         whileHover={{ scale: 1.1 }}
@@ -63,6 +62,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
 
