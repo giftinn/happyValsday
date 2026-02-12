@@ -24,7 +24,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
         transition={{ duration: 0.8 }}
       >
         <img 
-          src="https://files.catbox.moe/oefqu5.jpg" 
+          src="https://files.catbox.moe/2rj21p.jpg" 
           alt="Birthday Candles" 
           className="w-full h-full object-cover"
         />
@@ -62,6 +62,7 @@ export const Page4: React.FC<Page4Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
 
