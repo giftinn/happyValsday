@@ -17,7 +17,7 @@ export const Page3: React.FC<Page3Props> = ({ onNext }) => {
         transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
       >
         <img 
-          src="https://files.catbox.moe/8q544j.png" 
+          src="https://files.catbox.moe/bxm45b.png" 
           alt="Cute Mail Envelope" 
           className="w-48 h-48 object-contain drop-shadow-lg"
         />
@@ -62,5 +62,6 @@ export const Page3: React.FC<Page3Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
