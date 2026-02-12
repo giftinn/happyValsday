@@ -28,7 +28,7 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
           }}
         >
           <img 
-            src="https://files.catbox.moe/7x6ngh.png" 
+            src="https://files.catbox.moe/pi09r8.png" 
             alt="Bunny with Cake" 
             className="w-48 h-48 object-contain drop-shadow-lg"
           />
@@ -78,5 +78,6 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
