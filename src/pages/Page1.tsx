@@ -42,7 +42,7 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
         >
-          Happy Birthday, to my Boyf!
+          Happy Valentine, i have a little surprise for you!
         </motion.h1>
         <motion.h2 
           className="text-xl text-[#FB9B8F]"
@@ -78,6 +78,7 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
 
 
