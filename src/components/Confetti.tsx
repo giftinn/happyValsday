@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
-const colors = ['#7a4a2e', '#b08968', '#c2a77d', '#e6d5c3', '#f5efe6'];
+const colors = ['#F57799', '#FB9B8F', '#FDC3A1', '#FB9B8F', '#FDC3A1'];
 
 interface ConfettiPieceProps {
   delay: number;
@@ -54,4 +54,5 @@ export const Confetti: React.FC = () => {
     </div>
   );
 };
+
 
