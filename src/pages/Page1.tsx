@@ -37,7 +37,7 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
 
       <div className="space-y-2 text-center">
         <motion.h1 
-          className="text-4xl font-bold text-[#7a4a2e]"
+          className="text-4xl font-bold text-[#F57799]"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
@@ -45,7 +45,7 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
           Happy Birthday, to my Boyf!
         </motion.h1>
         <motion.h2 
-          className="text-xl text-[#b08968]"
+          className="text-xl text-[#FB9B8F]"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
@@ -58,12 +58,12 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
         onClick={onNext}
         className="
           px-6 py-3
-          bg-[#c2a77d]
+          bg-[#FB9B8F]
           text-white
           rounded-full
           font-semibold
           shadow-lg
-          hover:bg-[#a68b63]
+          hover:bg-[#FDC3A1]
           transition-colors
           flex items-center gap-2
         "
@@ -78,4 +78,5 @@ export const Page1: React.FC<Page1Props> = ({ onNext }) => {
     </div>
   );
 };
+
 
